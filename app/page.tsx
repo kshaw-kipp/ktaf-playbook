@@ -214,12 +214,12 @@ export default function PlaybookPage() {
         <section id="section2" style={{ marginBottom: 52, scrollMarginTop: 28 }}>
           <SectionHeader num="2" title="Learning Philosophy: Joyful Struggle" />
           <p style={{ fontSize: 15, lineHeight: 1.75, color: C.gray800, marginBottom: 14 }}>Adult learners don't build skill by watching — they build it by doing, getting stuck, noticing why, and trying again. That cycle of productive failure is what we mean by <strong>joyful struggle</strong>.</p>
-          <p style={{ fontSize: 15, lineHeight: 1.75, color: C.gray800, marginBottom: 22 }}>The community is designed to make that cycle visible and socially rewarded. A post that says "here's what I tried and why it flopped" is as valuable as a polished use case — arguably more, because it shows others what to watch for.</p>
+          <p style={{ fontSize: 15, lineHeight: 1.75, color: C.gray800, marginBottom: 22 }}>The community is designed to make that cycle visible and socially rewarded. A post that says "here\u2019s what I tried and why it flopped" is as valuable as a polished use case — arguably more, because it shows others what to watch for.</p>
           <h3 style={{ fontSize: 16, fontWeight: 700, color: C.gray800, margin: "0 0 14px" }}>Operating principles</h3>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {[
               ["🧪", "Show the mess.", "The revised prompt is useful. The failed first draft is a lesson."],
-              ["🎯", "Role-specific is more useful than abstract.", "A teacher needs a prompt for differentiated exit tickets, not a generic "Claude can help with writing" claim."],
+              ["🎯", "Role-specific is more useful than abstract.", "A teacher needs a prompt for differentiated exit tickets, not a generic \u201cClaude can help with writing\u201d claim."],
               ["🔄", "Low stakes, high frequency.", "Short challenges weekly beat monthly deep dives."],
               ["🤝", "Community > expert.", "The goal is distributed capability, not dependency on a few power users."],
               ["📌", "Connect to the work.", "Every theme ties back to something KTAF staff actually do every day."],
